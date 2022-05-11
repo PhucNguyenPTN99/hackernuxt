@@ -1,0 +1,24 @@
+{
+  "name": "hackernuxt",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "core-js": "^3.19.3",
+    "date-fns": "^2.28.0",
+    "nuxt": "^2.15.8",
+    "tachyons": "^4.12.0",
+    "tachyons-debug": "^1.1.11",
+    "url": "^0.11.0",
+    "vue": "^2.6.14",
+    "vue-server-renderer": "^2.6.14",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^4.46.0"
+  }
+}

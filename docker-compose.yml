@@ -1,0 +1,23 @@
+version: '3.7'
+services:
+  app-start:
+    # define container name
+    container_name: app-start
+    # Build image from dockerfile be created and argument
+    build:
+      context: .
+      dockerfile: Dockerfile
+    # Config restart container
+    restart: unless-stopped
+    # mount data for save change in this session run
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
+    ports:
+      - '8080:8080'
+    networks:
+      - sandbox
+
+networks:
+  sandbox:
+    driver: bridge
