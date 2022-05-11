@@ -8,6 +8,7 @@
 import Items from '~/components/Items'
 //import Layouts from '~/layouts/default'
 //cmt for test-1
+//cmt for test-2
 
 export default {
   components: {
