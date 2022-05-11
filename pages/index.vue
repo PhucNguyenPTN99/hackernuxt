@@ -7,6 +7,7 @@
 <script>
 import Items from '~/components/Items'
 //import Layouts from '~/layouts/default'
+//cmt for test-1
 
 export default {
   components: {
