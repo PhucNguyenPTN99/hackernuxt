@@ -7,6 +7,8 @@
 <script>
 import Items from '~/components/Items'
 //import Layouts from '~/layouts/default'
+//test-rebase-new
+//test-rebase-new1
 
 export default {
   components: {
